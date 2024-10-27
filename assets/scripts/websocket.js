@@ -1,4 +1,4 @@
-const socket = new WebSocket(`ws://localhost:3000/`);
+const socket = new WebSocket(`ws://47.200.169.39:3000/`);
 const players = [];
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
